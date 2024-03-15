@@ -1,0 +1,46 @@
+{
+    "_id": "0fe72834-01c9-4ef7-9d20-50e8ecbd3bed",
+    "invite_id": "",
+    "name": "Invited Only Test",
+    "testStartDate": "2024-03-01T12:55:00+05:30",
+    "testEndDate": "2024-03-31T13:00:00+05:30",
+    "sections": 1,
+    "questionsCount": 3,
+    "duration": 60,
+    "activeTest": true,
+    "email": "",
+    "user_name": "",
+    "password": "",
+    "isAdmin": false,
+    "invited": true,
+    "public": false,
+    "numAnswered": 0,
+    "numFlagged": 0,
+    "invited_user": {
+        "email": "sachin@wecp.in",
+        "user_name": "",
+        "invite_id": "4db7fbc5-939d-4b3a-af99-c3ca43fb2655"
+    },
+    "non_invited_user": {
+        "email": "sachin+2134@gmail.com",
+        "user_name": "sachin"
+    },
+    "signed_in_user":{
+        "email": "cypress+admin@wecp.in",
+        "user_name": "",
+        "password": "wecp1234"
+    },
+    "admin_user": {
+        "email": "admin@wecreateproblems.com",
+        "user_name": "admin",
+        "password": "$noequake@0816"
+    },
+    "form_details": {
+        "user_name": "sachin",
+        "email": "sachin@wecreateproblems.com"
+    },
+    "num_instructions_tab": 3,
+    "questionTypes":[
+        "Multiple Choice"
+    ]
+}

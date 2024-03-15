@@ -1,0 +1,7 @@
+{
+	"baseUrl": "http://localhost:4200/",
+	"watchForFileChanges": true,
+	"projectId": "3idvs3",
+	"video": true,
+	"videoCompression": true
+}
