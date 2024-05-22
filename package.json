@@ -14,7 +14,7 @@
 		"cy:verify": "cypress verify",
 		"cy:info": "cypress info",
 		"cy:cloud": "cypress run --record",
-		"cy:run": "npx cypress run --record --key e5d06af2-6b46-45ed-b1bb-ca06870791ab",
+		"cy:run": "npx cypress run --record --key 231e6a54-ed18-4695-9568-671495dc56c5",
   		"cy:parallel" : "cypress-parallel -s cy:run -t 5 -d '\"cypress/e2e\"'"
 	},
 	"husky": {
