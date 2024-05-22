@@ -6,7 +6,7 @@
 	"license": "ISC",
 	"scripts": {
 		"cy:open": "npx cypress open",
-		"start": "./node_modules/.bin/cypress run --browser electron",
+		"start": "./node_modules/.bin/cypress run --browser electron --record --key 231e6a54-ed18-4695-9568-671495dc56c5",
 		"test": "./node_modules/.bin/cypress run --spec './cypress/e2e/orgSettings/candidateReport.cy.js",
 		"cy:local": "npx cypress run --browser chrome --config baseUrl=http://localhost:4200/",
 		"cy:dev": "npx cypress run --browser chrome --config baseUrl=https://d.assess.wecreateproblems.com/",
