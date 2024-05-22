@@ -1,0 +1,118 @@
+{
+	"_id": "e7971f7f-1b79-41c3-b843-347ab8526440",
+	"name": "⌘A Types (Adaptive)",
+	"buttonText": "Start Test",
+	"activeTest": true,
+	"requireSignIn": false,
+	"public": true,
+	"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+	"duration": 15,
+	"sections": 12,
+	"questionsCount": 17,
+	"type": "Test",
+	"email": "",
+	"username": "",
+	"sectionDetails": [
+		{
+			"sectionName": "Multiple choice MCQs",
+			"questions": 5
+		},
+		{
+			"sectionName": "Checkboxes MCQ",
+			"questions": 2
+		},
+		{
+			"sectionName": "Subjective",
+			"questions": 2
+		},
+		{
+			"sectionName": "Paragraph",
+			"questions": 2
+		},
+		{
+			"sectionName": "Code programming",
+			"questions": 3
+		},
+		{
+			"sectionName": "AI Coding",
+			"questions": 1
+		},
+		{
+			"sectionName": "Application programming",
+			"questions": 1
+		},
+		{
+			"sectionName": "Working memory",
+			"questions": 1
+		},
+		{
+			"sectionName": "Sustained Attention",
+			"questions": 1
+		},
+		{
+			"sectionName": "Interactive Subjective",
+			"questions": 2
+		},
+		{
+			"sectionName": "Evaluative Subjective",
+			"questions": 1
+		},
+		{
+			"sectionName": "Work Sample",
+			"questions": 1
+		}
+	],
+	"formDetails": [
+		{
+			"type": "text",
+			"value": "",
+			"required": true
+		},
+		{
+			"type": "text",
+			"value": "",
+			"required": true
+		}
+	],
+	"feedback": [],
+	"AIUploadFiles": [
+		{
+			"filePath": "upload_files/report.pdf",
+			"mimeType": "application/pdf",
+			"selector": ".padding-top-8",
+			"message": "pdf not supported"
+		},
+		{
+			"filePath": "upload_files/ai_coding/csv_files/wrongInput.csv",
+			"mimeType": "text/csv",
+			"selector": ".padding-vertical-16 > .text-red-600",
+			"message": "File does not contain the correct headers - Please Check sample submission format",
+			"AIJudgeStatus": 500
+		},
+		{
+			"filePath": "upload_files/ai_coding/csv_files/emptyInput.csv",
+			"mimeType": "text/csv",
+			"selector": ".padding-vertical-16 > .text-red-600",
+			"message": "File is empty",
+			"AIJudgeStatus": 500,
+			"emptyFile": true
+		},
+		{
+			"filePath": "upload_files/ai_coding/csv_files/aiCodingSubmission.csv",
+			"mimeType": "text/csv",
+			"selector": ".margin-bottom-32 > .padding-vertical-16 > div",
+			"message": "Evaluation completed. Your score is:",
+			"AIJudgeStatus": 200
+		}
+	],
+	"instructions": ["General instructions", "Org Instructions"],
+	"questionTypes": [
+		"Subjective Question",
+		"Projects",
+		"Programming",
+		"Machine Learning",
+		"Multiple Correct",
+		"Multiple Choice",
+		"Work Sample (File Upload)"
+	]
+}

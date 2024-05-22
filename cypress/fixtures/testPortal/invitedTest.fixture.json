@@ -1,0 +1,45 @@
+{
+	"_id": "e77be095-c922-4c9b-ac59-6e80a9a3eb6a",
+	"invite_id": null,
+	"name": "Invited only (Private Test)",
+	"testStartDate": "2024-03-01T12:55:00+05:30",
+	"testEndDate": "2025-04-30T13:00:00+05:30",
+	"sections": 1,
+	"questionsCount": 2,
+	"duration": 15,
+	"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+	"activeTest": true,
+	"email": null,
+	"user_name": null,
+	"password": null,
+	"isAdmin": false,
+	"invited": true,
+	"public": false,
+	"numAnswered": 0,
+	"numFlagged": 0,
+	"invited_user": {
+		"email": "cypress+candidate_1@wecreateproblems.com",
+		"user_name": "",
+		"invite_id": "5847c606-496e-4f4a-91c8-0793e733035b"
+	},
+	"non_invited_user": {
+		"email": "cypress+candidate_2@wecreateproblems.com",
+		"user_name": "cypress+candidate_2"
+	},
+	"signed_in_user": {
+		"email": "cypress+no_access@wecreateproblems.com",
+		"user_name": "",
+		"password": "cypress+no_access@wecreateproblems.com"
+	},
+	"admin_user": {
+		"email": "cypress+admin@wecreateproblems.com",
+		"user_name": "Cypress Admin",
+		"password": "cypress+admin@wecreateproblems.com"
+	},
+	"form_details": {
+		"user_name": "cypress"
+	},
+	"num_instructions_tab": 4,
+	"instructions": ["General instructions", "Org Instructions"],
+	"questionTypes": ["Subjective Question"]
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "578c1c33-1737-4c19-84c3-cf58892bba01",
+	"name": "Idle Test",
+	"questionsCount": 0,
+	"numAnswered": 0,
+	"numFlagged": 0,
+	"duration": 15,
+	"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+	"activeTest": false,
+	"public": true,
+	"isAdmin": false,
+	"email": "",
+	"password": "",
+	"user_name": "",
+	"admin": {
+		"email": "cypress+admin@wecreateproblems.com",
+		"password": "cypress+admin@wecreateproblems.com",
+		"user_name": "Cypress Admin"
+	},
+	"questionTypes": [],
+	"instructions": ["General instructions", "Org Instructions"]
+}
