@@ -5,12 +5,9 @@ module.exports = defineConfig({
 	defaultCommandTimeout: 40000,
 	viewportWidth: 1920,
 	viewportHeight: 1080,
-	headless: true
-
 	e2e: {
-		baseUrl: 'https://d.assess.wecreateproblems.com/'
+		baseUrl: 'https://assess.wecreateproblems.com/'
 	},
-
 	component: {
 		devServer: {
 			framework: 'angular',
