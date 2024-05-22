@@ -13,7 +13,9 @@
 		"cy:prod": "--browser chrome --config baseUrl=https://assess.wecreateproblems.com/",
 		"cy:verify": "cypress verify",
 		"cy:info": "cypress info",
-		"cy:cloud": "cypress run --record"
+		"cy:cloud": "cypress run --record",
+		"cy:run": "cypress run --record",
+  		"cy:parallel" : "cypress-parallel -s cy:run -t 5 -d '\"cypress/e2e\"'"
 	},
 	"husky": {
 		"hooks": {
@@ -25,6 +27,7 @@
 		"url": "https://github.com/yash-wecp/cypressTests"
 	},
 	"dependencies": {
+		"cypress-parallel": "^0.14.0",
 		"lodash": "^4.17.21"
 	},
 	"devDependencies": {
